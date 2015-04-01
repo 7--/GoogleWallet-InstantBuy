@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.google.android.gms.samples.wallet.ItemListActivity">
+        InstantBikes ItemListActivity
+    </screenName>
+    <screenName name="com.google.android.gms.samples.wallet.ItemDetailsFragment">
+        InstantBikes ItemDetailsFragment
+    </screenName>
+
+    <screenName name="com.google.android.gms.samples.wallet.CheckoutActivity">
+        InstantBikes CheckoutActivity
+    </screenName>
+
+    <screenName name="com.google.android.gms.samples.wallet.ConfirmationActivity">
+        InstantBikes ConfirmationActivity
+    </screenName>
+
+    <screenName name="com.google.android.gms.samples.wallet.FullWalletConfirmationButtonFragment">
+        InstantBikes FullWalletConfirmationButtonFragment
+    </screenName>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-54423601-2</string>
+</resources>
